@@ -5,7 +5,7 @@ int main()
     float percentage;
     printf("Enter the marks obtained in five subjects (out of 100) :\n ");
     for(i=0;i<5;i++){
-        printf("Enter marks[/100] for subject %d:", i+1);
+        printf("Enter marks[ out of 100] for subject %d:", i+1);
         if(scanf("%d",&marks[i])!=1 ||marks[i]>100){
             printf("Error : Invalid input %d.\n",i+1);
             return 1;
